@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Medona English School – Triveniganj, Supaul, Bihar</title>
+<meta name="description" content="Medona English School – A Unit of Y.L. Karan & Sons Educational Trust. Nursery to 8th Standard. Triveniganj, Supaul, Bihar. Admission Open.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ANNOUNCEMENT TICKER -->
+<div class="ticker-wrap">
+  <div class="ticker-label"><i class="fas fa-bullhorn" style="margin-right:6px"></i> NOTICE</div>
+  <div class="ticker-content">
+    <span>Admission Free Till January 2026 – Enroll Now!</span>
+    <span>Classes from Nursery to 8th Standard</span>
+    <span>Special Coaching: Navodaya · Simultala · Sainik School · Acharyakulam</span>
+    <span>CCTV Surveillance · e-Science Lab · Computer Lab</span>
+    <span>24×7 Doubt Support Available</span>
+    <span>UDISE Code: 10061101317</span>
+    <span>Admission Free Till January 2026 – Enroll Now!</span>
+    <span>Classes from Nursery to 8th Standard</span>
+    <span>Special Coaching: Navodaya · Simultala · Sainik School · Acharyakulam</span>
+    <span>CCTV Surveillance · e-Science Lab · Computer Lab</span>
+    <span>24×7 Doubt Support Available</span>
+    <span>UDISE Code: 10061101317</span>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-inner">
+    <div class="nav-brand" onclick="showPage('home')">
+      <div class="logo-circle">M</div>
+      <div class="brand-text">
+        <div class="name">Medona English School</div>
+        <div class="sub">Triveniganj, Supaul, Bihar – 852139</div>
+      </div>
+    </div>
+    <div class="nav-links">
+      <a onclick="showPage('home')" class="active" id="nav-home"><i class="fas fa-house"></i> Home</a>
+      <a onclick="showPage('about')" id="nav-about"><i class="fas fa-school"></i> About</a>
+      <a onclick="showPage('facilities')" id="nav-facilities"><i class="fas fa-building-columns"></i> Facilities</a>
+      <a onclick="showPage('admission')" id="nav-admission"><i class="fas fa-user-plus"></i> Admission</a>
+      <a onclick="showPage('fee')" id="nav-fee"><i class="fas fa-indian-rupee-sign"></i> Fee Structure</a>
+      <a onclick="showPage('gallery')" id="nav-gallery"><i class="fas fa-images"></i> Gallery</a>
+      <a onclick="showPage('contact')" id="nav-contact"><i class="fas fa-envelope"></i> Contact</a>
+    </div>
+    <div class="nav-cta">
+      <a class="nav-call" href="tel:7782816456"><i class="fas fa-phone"></i> 7782816456</a>
+      <button class="btn btn-primary" onclick="showPage('form')" style="padding:10px 20px;font-size:.82rem;border-radius:50px"><i class="fas fa-pen-to-square"></i> Apply Now</button>
+    </div>
+    <div class="hamburger" onclick="toggleMenu()" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a onclick="showPage('home');toggleMenu()"><i class="fas fa-house"></i> Home</a>
+    <a onclick="showPage('about');toggleMenu()"><i class="fas fa-school"></i> About</a>
+    <a onclick="showPage('facilities');toggleMenu()"><i class="fas fa-building-columns"></i> Facilities</a>
+    <a onclick="showPage('admission');toggleMenu()"><i class="fas fa-user-plus"></i> Admission</a>
+    <a onclick="showPage('form');toggleMenu()"><i class="fas fa-pen-to-square"></i> Apply Now</a>
+    <a onclick="showPage('fee');toggleMenu()"><i class="fas fa-indian-rupee-sign"></i> Fee Structure</a>
+    <a onclick="showPage('gallery');toggleMenu()"><i class="fas fa-images"></i> Gallery</a>
+    <a onclick="showPage('contact');toggleMenu()"><i class="fas fa-envelope"></i> Contact</a>
+  </div>
+</nav>
+
+<!-- ================================================================
+     HOME PAGE
+     ================================================================ -->
+<div class="page active" id="page-home">
+
+  <!-- Admission Banner -->
+  <div class="admission-banner">
+    <i class="fas fa-graduation-cap"></i> <span>★ ADMISSION OPEN – FREE ADMISSION TILL JANUARY 2026 ★</span> — Call Now: 7782816456 / 9546655104
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-pattern"></div>
+    <div class="hero-content container">
+      <div class="hero-text">
+        <div class="hero-badge"><i class="fas fa-book-open"></i> A Unit of Y.L. Karan &amp; Sons Educational Trust</div>
+        <h1 class="hero-title">Building <em>Bright Futures</em> from the Foundation</h1>
+        <p class="hero-tagline"><i class="fas fa-certificate" style="color:var(--gold);margin-right:5px"></i> Regd. Under Govt. of Bihar · UDISE Code: 10061101317</p>
+        <p class="hero-desc">Welcome to Medona English School — where quality education meets character development. Nurturing students from Nursery to 8th with excellence, care, and a vision for tomorrow.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" onclick="showPage('form')"><i class="fas fa-pen-to-square"></i> Apply Now</button>
+          <button class="btn btn-outline" onclick="showPage('contact')"><i class="fas fa-phone"></i> Contact Us</button>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-stat">
+          <div class="icon"><i class="fas fa-graduation-cap"></i></div>
+          <div class="info"><div class="val">Nursery–8th</div><div class="lbl">Classes Offered</div></div>
+        </div>
+        <div class="hero-stat">
+          <div class="icon"><i class="fas fa-users"></i></div>
+          <div class="info"><div class="val">Qualified</div><div class="lbl">Experienced Teachers</div></div>
+        </div>
+        <div class="hero-stat">
+          <div class="icon"><i class="fas fa-clock"></i></div>
+          <div class="info"><div class="val">24×7</div><div class="lbl">Doubt Support</div></div>
+        </div>
+        <div class="hero-stat">
+          <div class="icon"><i class="fas fa-shield-halved"></i></div>
+          <div class="info"><div class="val">CCTV</div><div class="lbl">Surveillance Campus</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT PREVIEW -->
+  <section class="about-preview">
+    <div class="container">
+      <div class="grid">
+        <div class="about-img reveal">
+          <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&q=80" alt="School Building">
+          <div class="badge-float">
+            <div class="num">10+</div>
+            <div class="txt">Years of<br>Excellence</div>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <div class="eyebrow" style="display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--sky);background:rgba(46,134,193,.1);padding:5px 14px;border-radius:50px;margin-bottom:14px">About Us</div>
+          <h2>A Legacy of Learning &amp; Excellence in Bihar</h2>
+          <p>Medona English School is a premier educational institution in Triveniganj, Supaul, Bihar. Under the visionary leadership of Director <strong>Manoj Kumar</strong>, we are a beacon of academic excellence for the community.</p>
+          <div class="about-features">
+            <div class="about-feat"><i class="fas fa-check-circle"></i> Nursery to 8th Standard</div>
+            <div class="about-feat"><i class="fas fa-check-circle"></i> English Medium</div>
+            <div class="about-feat"><i class="fas fa-check-circle"></i> Govt. Registered Trust</div>
+            <div class="about-feat"><i class="fas fa-check-circle"></i> Modern Infrastructure</div>
+            <div class="about-feat"><i class="fas fa-check-circle"></i> Library &amp; e-Lab</div>
+            <div class="about-feat"><i class="fas fa-check-circle"></i> CCTV Secured</div>
+          </div>
+          <button class="btn btn-navy" onclick="showPage('about')" style="margin-top:10px"><i class="fas fa-arrow-right"></i> Read More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FACILITIES HIGHLIGHTS -->
+  <section class="facilities-sec">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">Our Facilities</div>
+        <h2>Everything Your Child Needs to Thrive</h2>
+        <p>We provide a safe, modern, and enriching environment designed to foster curiosity and excellence.</p>
+      </div>
+      <div class="fac-grid">
+        <div class="fac-card reveal"><div class="fac-icon"><i class="fas fa-building"></i></div><div class="fac-title">Airy Classrooms</div><div class="fac-desc">Spacious, well-ventilated classrooms designed for focused learning and comfort.</div></div>
+        <div class="fac-card reveal"><div class="fac-icon"><i class="fas fa-flask"></i></div><div class="fac-title">e-Science Lab</div><div class="fac-desc">Hands-on digital science laboratory with modern equipment and interactive tools.</div></div>
+        <div class="fac-card reveal"><div class="fac-icon"><i class="fas fa-computer"></i></div><div class="fac-title">Computer Lab</div><div class="fac-desc">Fully equipped computer lab with internet access for digital literacy training.</div></div>
+        <div class="fac-card reveal"><div class="fac-icon"><i class="fas fa-book-open"></i></div><div class="fac-title">Library</div><div class="fac-desc">Rich library with study materials, reference books, and reading resources.</div></div>
+        <div class="fac-card reveal"><div class="fac-icon"><i class="fas fa-video"></i></div><div class="fac-title">CCTV Surveillance</div><div class="fac-desc">24×7 CCTV monitoring for complete campus safety and peace of mind.</div></div>
+        <div class="fac-card reveal"><div class="fac-icon"><i class="fas fa-chalkboard-teacher"></i></div><div class="fac-title">Qualified Teachers</div><div class="fac-desc">Experienced, dedicated educators committed to every student's success.</div></div>
+        <div class="fac-card reveal"><div class="fac-icon"><i class="fas fa-headset"></i></div><div class="fac-title">24×7 Doubt Support</div><div class="fac-desc">Round-the-clock academic support so no question goes unanswered.</div></div>
+        <div class="fac-card reveal"><div class="fac-icon"><i class="fas fa-star"></i></div><div class="fac-title">Study Materials</div><div class="fac-desc">Comprehensive, curated study materials provided for all subjects and classes.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPECIAL COACHING -->
+  <section class="coaching-sec">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow" style="color:var(--gold-lt);background:rgba(212,172,13,.2)">Special Preparation</div>
+        <h2 style="color:var(--white)">We Prepare for India's Top Competitive Exams</h2>
+        <p style="color:rgba(255,255,255,.7)">Our expert faculty provides dedicated coaching for prestigious entrance examinations.</p>
+      </div>
+      <div class="coaching-grid">
+        <div class="coaching-card reveal">
+          <div class="ico"><i class="fas fa-landmark" style="font-size:2rem;color:var(--gold-lt)"></i></div>
+          <h3>Navodaya Vidyalaya</h3>
+          <p>Intensive JNV entrance preparation with mock tests, practice papers, and expert guidance for Class VI admission.</p>
+        </div>
+        <div class="coaching-card reveal">
+          <div class="ico"><i class="fas fa-school-flag" style="font-size:2rem;color:var(--gold-lt)"></i></div>
+          <h3>Simultala Awasiya</h3>
+          <p>Specialized coaching for Simultala Awasiya Vidyalaya entrance — one of Bihar's most prestigious residential schools.</p>
+        </div>
+        <div class="coaching-card reveal">
+          <div class="ico"><i class="fas fa-shield-halved" style="font-size:2rem;color:var(--gold-lt)"></i></div>
+          <h3>Sainik School</h3>
+          <p>Structured preparation for All India Sainik Schools Entrance Exam (AISSEE) with subject-wise coaching.</p>
+        </div>
+        <div class="coaching-card reveal">
+          <div class="ico"><i class="fas fa-om" style="font-size:2rem;color:var(--gold-lt)"></i></div>
+          <h3>Acharyakulam</h3>
+          <p>Dedicated preparation for Patanjali Acharyakulam entrance with holistic academic and value-based training.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="why-sec">
+    <div class="container">
+      <div class="why-grid">
+        <div class="reveal">
+          <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?w=800&q=80" alt="Students Learning">
+        </div>
+        <div class="reveal">
+          <div class="eyebrow" style="display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--sky);background:rgba(46,134,193,.1);padding:5px 14px;border-radius:50px;margin-bottom:14px">Why Choose Us</div>
+          <h2 style="font-family:var(--ff-head);font-size:clamp(1.6rem,3vw,2.3rem);color:var(--navy);margin-bottom:32px">Why Parents Trust<br>Medona English School</h2>
+          <div class="why-list">
+            <div class="why-item"><div class="ico"><i class="fas fa-award"></i></div><div><h4>Government Registered Trust</h4><p>Backed by Y.L. Karan &amp; Sons Educational Trust, registered under the Government of Bihar.</p></div></div>
+            <div class="why-item"><div class="ico"><i class="fas fa-brain"></i></div><div><h4>Holistic Development</h4><p>Academic excellence combined with character building, sports, and co-curricular activities.</p></div></div>
+            <div class="why-item"><div class="ico"><i class="fas fa-rupee-sign"></i></div><div><h4>Affordable Quality Education</h4><p>World-class education at reasonable fees. Free admission till January 2026!</p></div></div>
+            <div class="why-item"><div class="ico"><i class="fas fa-shield-halved"></i></div><div><h4>Safe &amp; Secure Campus</h4><p>CCTV surveillance, disciplined environment, and caring staff ensure complete safety.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testi-sec">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">Testimonials</div>
+        <h2>What Parents Say About Us</h2>
+        <p>Hear from families who trust Medona English School with their children's education.</p>
+      </div>
+      <div class="testi-grid">
+        <div class="testi-card reveal">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"</div>
+          <p>Medona English School has been a blessing for our family. The teachers are extremely dedicated and the coaching for Navodaya has been excellent. My son scored in the top 5 in our district.</p>
+          <div class="author"><div class="avatar">RK</div><div class="author-info"><div class="name">Ramesh Kumar</div><div class="role"><i class="fas fa-user-graduate" style="margin-right:4px;color:var(--sky)"></i>Parent of Class 7 Student</div></div></div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"</div>
+          <p>The school's facilities are outstanding for a town like Triveniganj. CCTV, computer lab, library — everything is top-class. My daughter loves coming to school every day. Director Manoj Sir is very approachable.</p>
+          <div class="author"><div class="avatar">SP</div><div class="author-info"><div class="name">Sunita Prasad</div><div class="role"><i class="fas fa-user-graduate" style="margin-right:4px;color:var(--sky)"></i>Parent of Class 5 Student</div></div></div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"</div>
+          <p>Affordable fees with premium quality — that's Medona. The 24×7 doubt support is a game-changer. My child is always on top of his studies. I recommend this school to every parent in Supaul.</p>
+          <div class="author"><div class="avatar">AK</div><div class="author-info"><div class="name">Ajay Kumar</div><div class="role"><i class="fas fa-user-graduate" style="margin-right:4px;color:var(--sky)"></i>Parent of Class 3 Student</div></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY PREVIEW -->
+  <section class="gallery-preview">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">Our Gallery</div>
+        <h2>Life at Medona English School</h2>
+        <p>A glimpse into the vibrant school life and activities at our campus.</p>
+      </div>
+      <div class="gallery-grid-home reveal">
+        <div class="g-item" onclick="showPage('gallery')"><img src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=800&q=80" alt="School"><div class="overlay"><i class="fas fa-expand"></i></div></div>
+        <div class="g-item" onclick="showPage('gallery')"><img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=600&q=80" alt="Classroom"><div class="overlay"><i class="fas fa-expand"></i></div></div>
+        <div class="g-item" onclick="showPage('gallery')"><img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&q=80" alt="Students"><div class="overlay"><i class="fas fa-expand"></i></div></div>
+        <div class="g-item" onclick="showPage('gallery')"><img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?w=600&q=80" alt="Teacher"><div class="overlay"><i class="fas fa-expand"></i></div></div>
+        <div class="g-item" onclick="showPage('gallery')"><img src="https://images.unsplash.com/photo-1519452635265-7b1fbfd1e4e0?w=600&q=80" alt="Library"><div class="overlay"><i class="fas fa-expand"></i></div></div>
+      </div>
+      <div style="text-align:center;margin-top:36px">
+        <button class="btn btn-navy" onclick="showPage('gallery')"><i class="fas fa-images"></i> View Full Gallery</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-sec">
+    <div class="container">
+      <div class="cta-inner reveal">
+        <h2>Ready to Secure Your Child's Future?</h2>
+        <p>Admission is open! Join the growing family of Medona English School and give your child the best start in life.</p>
+        <div class="cta-actions">
+          <button class="btn btn-primary" onclick="showPage('form')"><i class="fas fa-pen-to-square"></i> Apply Now – It's Free!</button>
+          <a class="btn btn-outline" href="tel:7782816456"><i class="fas fa-phone"></i> Call: 7782816456</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div><!-- /page-home -->
+
+<!-- ================================================================
+     ABOUT PAGE
+     ================================================================ -->
+<div class="page" id="page-about">
+  <div class="page-hero">
+    <div class="container">
+      <h1>About Medona English School</h1>
+      <p>A legacy of trust, excellence, and character-building education in Bihar</p>
+      <div class="breadcrumb">Home <i class="fas fa-chevron-right" style="font-size:.6rem"></i> <span>About</span></div>
+    </div>
+  </div>
+
+  <div class="about-full">
+    <div class="container">
+      <div class="intro-grid">
+        <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&q=80" alt="School" class="reveal">
+        <div class="reveal">
+          <div class="tag"><i class="fas fa-seedling" style="margin-right:5px"></i>Est. with a Vision</div>
+          <h3 style="margin-top:16px">Our Story — Educating Bihar's Future Leaders</h3>
+          <p>Medona English School stands as a premier institution in Triveniganj, Supaul, Bihar. Founded with an unwavering commitment to quality education, we have been shaping young minds and nurturing talent in the region.</p>
+          <p>Affiliated with the Y.L. Karan &amp; Sons Educational Trust, registered under the Government of Bihar, our school follows a holistic curriculum that blends academic rigor with personality development, sports, and extracurricular activities.</p>
+          <p>Our UDISE Code <strong>10061101317</strong> reflects our recognition and compliance with national education standards. We offer classes from Nursery to 8th Standard in a safe, modern, and inspiring environment.</p>
+          <div class="trust-box">
+            <h4><i class="fas fa-landmark" style="color:var(--gold);margin-right:8px"></i>Y.L. Karan &amp; Sons Educational Trust</h4>
+            <p style="margin:0;font-size:.88rem;color:var(--muted)">Registered under the Government of Bihar, the Trust is committed to making quality education accessible to every child in the region. Our values of integrity, excellence, and community guide everything we do.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DIRECTOR'S MESSAGE -->
+  <div class="director-section">
+    <div class="container">
+      <div class="director-card">
+        <div class="director-img reveal">
+          <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80" alt="Director Manoj Kumar">
+        </div>
+        <div class="director-msg reveal">
+          <h3><i class="fas fa-quote-left" style="font-size:1.2rem;opacity:.5;margin-right:10px"></i>Director's Message</h3>
+          <div class="role"><i class="fas fa-user-tie" style="margin-right:6px"></i>Manoj Kumar · Director, Medona English School</div>
+          <p>"Education is not merely about acquiring knowledge — it is about shaping character, building confidence, and kindling a lifelong love for learning. At Medona English School, we are committed to providing every child with the tools they need to succeed in an ever-changing world."</p>
+          <p>"Our qualified and dedicated faculty, modern facilities, and nurturing environment create the perfect ecosystem for children to discover their potential. We believe every child is unique, and our responsibility is to unlock that uniqueness."</p>
+          <p>"I warmly invite every parent in Triveniganj and Supaul to be part of the Medona family — where your child's future is our greatest priority."</p>
+          <div class="signature">Manoj Kumar</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- VISION & MISSION -->
+  <div class="vm-section">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">Our Foundation</div>
+        <h2>Vision &amp; Mission</h2>
+        <p>The core principles that guide everything we do at Medona English School.</p>
+      </div>
+      <div class="vm-grid">
+        <div class="vm-card reveal">
+          <div class="ico"><i class="fas fa-binoculars" style="font-size:2rem;color:var(--sky)"></i></div>
+          <h3>Our Vision</h3>
+          <ul>
+            <li><i class="fas fa-circle-dot"></i> To be the most trusted educational institution in Supaul district</li>
+            <li><i class="fas fa-circle-dot"></i> To nurture leaders, innovators, and responsible citizens</li>
+            <li><i class="fas fa-circle-dot"></i> To bridge the gap between rural aspiration and quality education</li>
+            <li><i class="fas fa-circle-dot"></i> To create an environment where every child thrives</li>
+            <li><i class="fas fa-circle-dot"></i> To uphold the values of integrity, excellence, and service</li>
+          </ul>
+        </div>
+        <div class="vm-card mission reveal">
+          <div class="ico"><i class="fas fa-bullseye" style="font-size:2rem;color:var(--gold)"></i></div>
+          <h3>Our Mission</h3>
+          <ul>
+            <li><i class="fas fa-circle-dot" style="color:var(--gold)"></i> Provide world-class English medium education from Nursery to 8th</li>
+            <li><i class="fas fa-circle-dot" style="color:var(--gold)"></i> Equip students with competitive exam preparation from an early age</li>
+            <li><i class="fas fa-circle-dot" style="color:var(--gold)"></i> Build character through discipline, values, and co-curricular activities</li>
+            <li><i class="fas fa-circle-dot" style="color:var(--gold)"></i> Ensure safe, stimulating, and inclusive learning spaces for all</li>
+            <li><i class="fas fa-circle-dot" style="color:var(--gold)"></i> Foster a community of lifelong learners and responsible citizens</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="cta-sec">
+    <div class="container"><div class="cta-inner">
+      <h2>Want to Know More?</h2>
+      <p>Visit us at Triveniganj, Supaul or call us to schedule a school tour.</p>
+      <div class="cta-actions">
+        <button class="btn btn-primary" onclick="showPage('contact')"><i class="fas fa-map-marker-alt"></i> Visit Us</button>
+        <a class="btn btn-outline" href="tel:7782816456"><i class="fas fa-phone"></i> Call Now</a>
+      </div>
+    </div></div>
+  </section>
+</div>
+
+<!-- ================================================================
+     FACILITIES PAGE
+     ================================================================ -->
+<div class="page" id="page-facilities">
+  <div class="page-hero">
+    <div class="container">
+      <h1>Our Facilities</h1>
+      <p>Modern infrastructure and resources to nurture every dimension of learning</p>
+      <div class="breadcrumb">Home <i class="fas fa-chevron-right" style="font-size:.6rem"></i> <span>Facilities</span></div>
+    </div>
+  </div>
+
+  <div class="facilities-page">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">World-Class Amenities</div>
+        <h2>Built for Learning, Designed for Excellence</h2>
+        <p>Every facility at Medona English School is thoughtfully designed to support holistic student development.</p>
+      </div>
+      <div class="fac-page-grid">
+        <div class="fac-page-card reveal">
+          <div class="card-img"><img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&q=80" alt="Classrooms"></div>
+          <div class="card-body"><div class="card-icon"><i class="fas fa-building"></i></div><h3>Airy Classrooms</h3><p>Our spacious, well-ventilated classrooms are designed to provide a comfortable and focused learning environment. Equipped with proper lighting, fans, and learning aids for all classes from Nursery to 8th.</p></div>
+        </div>
+        <div class="fac-page-card reveal">
+          <div class="card-img"><img src="https://images.unsplash.com/photo-1532094349884-543559c55f36?w=600&q=80" alt="Science Lab"></div>
+          <div class="card-body"><div class="card-icon"><i class="fas fa-flask"></i></div><h3>e-Science Lab</h3><p>Our modern e-Science Laboratory integrates digital technology with hands-on experiments. Students explore scientific concepts through interactive simulations, models, and real experiments under expert supervision.</p></div>
+        </div>
+        <div class="fac-page-card reveal">
+          <div class="card-img"><img src="https://images.unsplash.com/photo-1587620962725-abab19836100?w=600&q=80" alt="Computer Lab"></div>
+          <div class="card-body"><div class="card-icon"><i class="fas fa-computer"></i></div><h3>Computer Lab</h3><p>Fully equipped computer laboratory with modern systems and internet access. Students develop digital literacy, coding fundamentals, and essential tech skills crucial for the 21st century.</p></div>
+        </div>
+        <div class="fac-page-card reveal">
+          <div class="card-img"><img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&q=80" alt="Library"></div>
+          <div class="card-body"><div class="card-icon"><i class="fas fa-book-open"></i></div><h3>Library &amp; Study Materials</h3><p>Our well-stocked library houses hundreds of books, reference materials, magazines, and educational resources. Curated study materials are also provided to all students to supplement classroom learning.</p></div>
+        </div>
+        <div class="fac-page-card reveal">
+          <div class="card-img"><img src="https://images.unsplash.com/photo-1521791055366-0d553872952f?w=600&q=80" alt="CCTV"></div>
+          <div class="card-body"><div class="card-icon"><i class="fas fa-video"></i></div><h3>CCTV Surveillance</h3><p>Our campus is equipped with 24×7 CCTV surveillance cameras at all key points. This ensures the complete safety and security of every student on campus, giving parents absolute peace of mind.</p></div>
+        </div>
+        <div class="fac-page-card reveal">
+          <div class="card-img"><img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&q=80" alt="Teachers"></div>
+          <div class="card-body"><div class="card-icon"><i class="fas fa-chalkboard-teacher"></i></div><h3>Qualified Teachers</h3><p>Our team of highly qualified, trained, and experienced educators are passionate about teaching. They use modern pedagogical methods to make learning engaging, effective, and enjoyable for every student.</p></div>
+        </div>
+        <div class="fac-page-card reveal">
+          <div class="card-img"><img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&q=80" alt="Doubt Support"></div>
+          <div class="card-body"><div class="card-icon"><i class="fas fa-headset"></i></div><h3>24×7 Doubt Support</h3><p>Students can access round-the-clock academic support through our dedicated doubt-clearing helpline and digital channels. No question is too small — we ensure every student fully understands their lessons.</p></div>
+        </div>
+        <div class="fac-page-card reveal">
+          <div class="card-img"><img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=600&q=80" alt="Activities"></div>
+          <div class="card-body"><div class="card-icon"><i class="fas fa-palette"></i></div><h3>Co-curricular Activities</h3><p>We believe in holistic development. Regular co-curricular activities including sports, drawing, music, and cultural events help students explore their talents beyond academics.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="cta-sec">
+    <div class="container"><div class="cta-inner">
+      <h2>See Our Campus in Person</h2>
+      <p>Visit Medona English School and experience the facilities for yourself. We welcome you for a guided tour.</p>
+      <div class="cta-actions">
+        <button class="btn btn-primary" onclick="showPage('form')"><i class="fas fa-pen-to-square"></i> Apply Now</button>
+        <button class="btn btn-outline" onclick="showPage('contact')"><i class="fas fa-map-marker-alt"></i> Get Directions</button>
+      </div>
+    </div></div>
+  </section>
+</div>
+
+<!-- ================================================================
+     ADMISSION PAGE
+     ================================================================ -->
+<div class="page" id="page-admission">
+  <div class="page-hero">
+    <div class="container">
+      <h1>Admission</h1>
+      <p>Simple, transparent, and welcoming — your child's journey begins here</p>
+      <div class="breadcrumb">Home <i class="fas fa-chevron-right" style="font-size:.6rem"></i> <span>Admission</span></div>
+    </div>
+  </div>
+
+  <div class="admission-page">
+    <div class="container">
+      <div class="adm-notice reveal">
+        <i class="fas fa-bullhorn"></i>
+        <div>
+          <h3><i class="fas fa-gift" style="margin-right:6px"></i>Admission Free Till January 2026!</h3>
+          <p>Enroll your child today and avail free admission for the session 2025–26. Limited seats available. Don't miss this opportunity!</p>
+        </div>
+      </div>
+
+      <div class="section-head reveal">
+        <div class="eyebrow">How to Apply</div>
+        <h2>Simple Steps to Join Our School</h2>
+        <p>The admission process is straightforward and parent-friendly.</p>
+      </div>
+      <div class="steps-grid">
+        <div class="step-card reveal"><div class="step-num"><i class="fas fa-phone-volume"></i></div><h4><i class="fas fa-phone" style="color:var(--sky);margin-right:6px"></i>Enquire</h4><p>Call us at 7782816456 or visit the school to enquire about available seats and class details.</p></div>
+        <div class="step-card reveal"><div class="step-num"><i class="fas fa-file-pen"></i></div><h4><i class="fas fa-file-pen" style="color:var(--sky);margin-right:6px"></i>Fill Form</h4><p>Fill the admission form online via our Google Form or collect it from the school office.</p></div>
+        <div class="step-card reveal"><div class="step-num"><i class="fas fa-folder-open"></i></div><h4><i class="fas fa-folder-open" style="color:var(--sky);margin-right:6px"></i>Submit Documents</h4><p>Submit required documents: birth certificate, Aadhaar card, previous class marksheet, and photographs.</p></div>
+        <div class="step-card reveal"><div class="step-num"><i class="fas fa-check-double"></i></div><h4><i class="fas fa-check-circle" style="color:var(--sky);margin-right:6px"></i>Confirmation</h4><p>Receive your admission confirmation and schedule. Your child's bright journey at Medona begins!</p></div>
+      </div>
+
+      <div class="adm-info-grid">
+        <div class="adm-info-card reveal">
+          <h4><i class="fas fa-file-alt" style="color:var(--sky)"></i> Documents Required</h4>
+          <ul>
+            <li><i class="fas fa-check-circle"></i> Birth Certificate / Age Proof</li>
+            <li><i class="fas fa-check-circle"></i> Aadhaar Card (Child &amp; Parent)</li>
+            <li><i class="fas fa-check-circle"></i> Previous Class Marksheet / TC</li>
+            <li><i class="fas fa-check-circle"></i> Passport Size Photographs (×4)</li>
+            <li><i class="fas fa-check-circle"></i> Parent's ID &amp; Address Proof</li>
+            <li><i class="fas fa-check-circle"></i> Caste Certificate (if applicable)</li>
+          </ul>
+        </div>
+        <div class="adm-info-card reveal">
+          <h4><i class="fas fa-calendar-check" style="color:var(--sky)"></i> Age Criteria</h4>
+          <ul>
+            <li><i class="fas fa-circle-arrow-right"></i> <strong>Nursery:</strong> 3–4 years</li>
+            <li><i class="fas fa-circle-arrow-right"></i> <strong>LKG:</strong> 4–5 years</li>
+            <li><i class="fas fa-circle-arrow-right"></i> <strong>UKG:</strong> 5–6 years</li>
+            <li><i class="fas fa-circle-arrow-right"></i> <strong>Class 1:</strong> 6+ years</li>
+            <li><i class="fas fa-circle-arrow-right"></i> <strong>Class 2–8:</strong> As per previous class</li>
+          </ul>
+        </div>
+      </div>
+
+      <div style="text-align:center;margin-top:20px">
+        <button class="btn btn-primary" onclick="showPage('form')"><i class="fas fa-pen-to-square"></i> Apply Online Now</button>
+        <a class="btn btn-navy" href="tel:7782816456" style="margin-left:12px"><i class="fas fa-phone"></i> Call for Enquiry</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ================================================================
+     ONLINE FORM PAGE
+     ================================================================ -->
+<div class="page" id="page-form">
+  <div class="page-hero">
+    <div class="container">
+      <h1><i class="fas fa-pen-to-square" style="margin-right:10px;color:var(--gold)"></i>Online Admission Form</h1>
+      <p>Fill in the form below to apply for admission — it's completely free!</p>
+      <div class="breadcrumb">Home <i class="fas fa-chevron-right" style="font-size:.6rem"></i> <span>Apply Now</span></div>
+    </div>
+  </div>
+
+  <div class="form-page-wrap">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow"><i class="fas fa-star" style="margin-right:4px"></i>Admission Open 2025–26</div>
+        <h2>Submit Your Application</h2>
+        <p>Complete the Google Form below. Our team will contact you within 24 hours to confirm your admission slot.</p>
+      </div>
+      <div class="form-info-strip reveal">
+        <div class="form-info-item"><i class="fas fa-clock"></i> Takes ~3 minutes</div>
+        <div class="form-info-item"><i class="fas fa-lock"></i> Secure &amp; Confidential</div>
+        <div class="form-info-item"><i class="fas fa-gift"></i> Completely FREE</div>
+        <div class="form-info-item"><i class="fas fa-phone-volume"></i> We'll call you within 24 hrs</div>
+      </div>
+      <div class="google-form-wrapper reveal">
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLScde_tj90wTXQznK1FgENQNZ92RDOJ3LO0YsjQbBkArGRYQ8A/viewform?embedded=true"
+          width="100%"
+          height="950"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+          title="Medona English School Admission Form"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+          <p style="padding:40px;text-align:center;color:var(--muted)"><i class="fas fa-spinner fa-spin" style="font-size:2rem;margin-bottom:16px;display:block"></i>Loading admission form…<br><br>If the form doesn't load, <a href="https://docs.google.com/forms/d/e/1FAIpQLScde_tj90wTXQznK1FgENQNZ92RDOJ3LO0YsjQbBkArGRYQ8A/viewform" target="_blank" style="color:var(--sky)">click here to open it directly</a>.</p>
+        </iframe>
+      </div>
+      <div style="text-align:center;margin-top:28px">
+        <p style="color:var(--muted);font-size:.9rem;margin-bottom:12px"><i class="fas fa-info-circle" style="color:var(--sky);margin-right:5px"></i>Prefer to apply offline? Visit us or call during school hours.</p>
+        <a href="tel:7782816456" class="btn btn-navy"><i class="fas fa-phone"></i> Call: 7782816456</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScde_tj90wTXQznK1FgENQNZ92RDOJ3LO0YsjQbBkArGRYQ8A/viewform" target="_blank" class="btn btn-sky" style="margin-left:12px"><i class="fas fa-external-link-alt"></i> Open Form in New Tab</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ================================================================
+     FEE STRUCTURE PAGE
+     ================================================================ -->
+<div class="page" id="page-fee">
+  <div class="page-hero">
+    <div class="container">
+      <h1>Fee Structure</h1>
+      <p>Transparent, affordable, and value-for-money education</p>
+      <div class="breadcrumb">Home <i class="fas fa-chevron-right" style="font-size:.6rem"></i> <span>Fee Structure</span></div>
+    </div>
+  </div>
+
+  <div class="fee-page">
+    <div class="container">
+      <div class="fee-notice reveal">
+        <i class="fas fa-tag"></i>
+        <div><strong><i class="fas fa-gift" style="margin-right:5px"></i>Special Offer:</strong> Free Admission till January 2026! The admission fee is completely waived for all new enrollments this session.</div>
+      </div>
+
+      <div class="section-head reveal">
+        <div class="eyebrow">Session 2025–26</div>
+        <h2>Monthly Tuition Fee Structure</h2>
+        <p>All amounts are in Indian Rupees (₹). Please confirm with school office for any updates.</p>
+      </div>
+
+      <div class="fee-table-wrap reveal">
+        <table>
+          <thead>
+            <tr>
+              <th><i class="fas fa-chalkboard" style="margin-right:6px"></i>Class</th>
+              <th><i class="fas fa-door-open" style="margin-right:6px"></i>Admission Fee</th>
+              <th><i class="fas fa-calendar-days" style="margin-right:6px"></i>Monthly Tuition</th>
+              <th><i class="fas fa-indian-rupee-sign" style="margin-right:6px"></i>Annual Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="fee-row-highlight">
+              <td><strong>Nursery</strong></td>
+              <td><strong style="color:#1a9e1a"><i class="fas fa-check-circle" style="margin-right:4px"></i>FREE</strong></td>
+              <td>₹800 / month</td>
+              <td><strong>₹9,600</strong></td>
+            </tr>
+            <tr>
+              <td><strong>LKG</strong></td>
+              <td><strong style="color:#1a9e1a"><i class="fas fa-check-circle" style="margin-right:4px"></i>FREE</strong></td>
+              <td>₹800 / month</td>
+              <td><strong>₹9,600</strong></td>
+            </tr>
+            <tr class="fee-row-highlight">
+              <td><strong>UKG</strong></td>
+              <td><strong style="color:#1a9e1a"><i class="fas fa-check-circle" style="margin-right:4px"></i>FREE</strong></td>
+              <td>₹800 / month</td>
+              <td><strong>₹9,600</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Class 1 – 5</strong></td>
+              <td><strong style="color:#1a9e1a"><i class="fas fa-check-circle" style="margin-right:4px"></i>FREE</strong></td>
+              <td>₹900 / month</td>
+              <td><strong>₹10,800</strong></td>
+            </tr>
+            <tr class="fee-row-highlight">
+              <td><strong>Class 6 – 8</strong></td>
+              <td><strong style="color:#1a9e1a"><i class="fas fa-check-circle" style="margin-right:4px"></i>FREE</strong></td>
+              <td>₹1,000 / month</td>
+              <td><strong>₹12,000</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="fee-includes reveal">
+        <h4><i class="fas fa-list-check" style="color:var(--sky)"></i>Fee Includes</h4>
+        <div class="fee-includes-grid">
+          <div class="fee-includes-item"><i class="fas fa-check"></i>Tuition Fees</div>
+          <div class="fee-includes-item"><i class="fas fa-check"></i>Study Materials</div>
+          <div class="fee-includes-item"><i class="fas fa-check"></i>Library Access</div>
+          <div class="fee-includes-item"><i class="fas fa-check"></i>Computer Lab Usage</div>
+          <div class="fee-includes-item"><i class="fas fa-check"></i>e-Science Lab</div>
+          <div class="fee-includes-item"><i class="fas fa-check"></i>Annual Function</div>
+        </div>
+      </div>
+
+      <div class="fee-actions reveal">
+        <button class="btn btn-primary" onclick="showPage('form')"><i class="fas fa-pen-to-square"></i> Apply for Admission</button>
+        <a class="btn btn-navy" href="tel:7782816456"><i class="fas fa-phone"></i> Call for Details</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ================================================================
+     GALLERY PAGE
+     ================================================================ -->
+<div class="page" id="page-gallery">
+  <div class="page-hero">
+    <div class="container">
+      <h1>Photo Gallery</h1>
+      <p>Moments of learning, growth, and joy from our vibrant school life</p>
+      <div class="breadcrumb">Home <i class="fas fa-chevron-right" style="font-size:.6rem"></i> <span>Gallery</span></div>
+    </div>
+  </div>
+
+  <div class="gallery-page">
+    <div class="container">
+      <div class="gallery-filter reveal">
+        <button class="filter-btn active" onclick="filterGallery('all',this)"><i class="fas fa-border-all"></i> All</button>
+        <button class="filter-btn" onclick="filterGallery('classroom',this)"><i class="fas fa-chalkboard"></i> Classrooms</button>
+        <button class="filter-btn" onclick="filterGallery('event',this)"><i class="fas fa-calendar-star"></i> Events</button>
+        <button class="filter-btn" onclick="filterGallery('students',this)"><i class="fas fa-user-graduate"></i> Students</button>
+        <button class="filter-btn" onclick="filterGallery('facility',this)"><i class="fas fa-building-columns"></i> Facilities</button>
+      </div>
+      <div class="gallery-full-grid" id="gallery-grid">
+        <div class="gallery-item" data-cat="classroom" onclick="openLightbox(this)"><img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&q=80" alt="Classroom"><div class="g-overlay"><i class="fas fa-search-plus"></i><span>Classroom</span></div></div>
+        <div class="gallery-item" data-cat="students" onclick="openLightbox(this)"><img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&q=80" alt="Students"><div class="g-overlay"><i class="fas fa-search-plus"></i><span>Students</span></div></div>
+        <div class="gallery-item" data-cat="event" onclick="openLightbox(this)"><img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=600&q=80" alt="Event"><div class="g-overlay"><i class="fas fa-search-plus"></i><span>Annual Event</span></div></div>
+        <div class="gallery-item" data-cat="facility" onclick="openLightbox(this)"><img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&q=80" alt="Library"><div class="g-overlay"><i class="fas fa-search-plus"></i><span>Library</span></div></div>
+        <div class="gallery-item" data-cat="students" onclick="openLightbox(this)"><img src="https://images.unsplash.com/photo-1544717305-2782549b5136?w=600&q=80" alt="Students"><div class="g-overlay"><i class="fas fa-search-plus"></i><span>Learning</span></div></div>
+        <div class="gallery-item" data-cat="facility" onclick="openLightbox(this)"><img src="https://images.unsplash.com/photo-1587620962725-abab19836100?w=600&q=80" alt="Lab"><div class="g-overlay"><i class="fas fa-search-plus"></i><span>Computer Lab</span></div></div>
+        <div class="gallery-item" data-cat="event" onclick="openLightbox(this)"><img src="https://images.unsplash.com/photo-1519452635265-7b1fbfd1e4e0?w=600&q=80" alt="Event"><div class="g-overlay"><i class="fas fa-search-plus"></i><span>Sports Day</span></div></div>
+        <div class="gallery-item" data-cat="classroom" onclick="openLightbox(this)"><img src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=600&q=80" alt="Classroom"><div class="g-overlay"><i class="fas fa-search-plus"></i><span>Classroom</span></div></div>
+        <div class="gallery-item" data-cat="students" onclick="openLightbox(this)"><img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?w=600&q=80" alt="Students"><div class="g-overlay"><i class="fas fa-search-plus"></i><span>Students</span></div></div>
+        <div class="gallery-item" data-cat="facility" onclick="openLightbox(this)"><img src="https://images.unsplash.com/photo-1532094349884-543559c55f36?w=600&q=80" alt="Science Lab"><div class="g-overlay"><i class="fas fa-search-plus"></i><span>Science Lab</span></div></div>
+        <div class="gallery-item" data-cat="event" onclick="openLightbox(this)"><img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&q=80" alt="Teachers"><div class="g-overlay"><i class="fas fa-search-plus"></i><span>Teachers</span></div></div>
+        <div class="gallery-item" data-cat="classroom" onclick="openLightbox(this)"><img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&q=80" alt="Study"><div class="g-overlay"><i class="fas fa-search-plus"></i><span>Study Area</span></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+    <div class="lightbox-close" onclick="closeLightbox()"><i class="fas fa-times"></i></div>
+    <img class="lightbox-img" id="lightbox-img" src="" alt="">
+  </div>
+</div>
+
+<!-- ================================================================
+     CONTACT PAGE
+     ================================================================ -->
+<div class="page" id="page-contact">
+  <div class="page-hero">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>We'd love to hear from you. Reach out for admissions, enquiries, or a school visit</p>
+      <div class="breadcrumb">Home <i class="fas fa-chevron-right" style="font-size:.6rem"></i> <span>Contact</span></div>
+    </div>
+  </div>
+
+  <div class="contact-page">
+    <div class="container">
+      <div class="contact-grid">
+        <div>
+          <h3 class="contact-info-head">Get In Touch</h3>
+          <div class="info-item reveal">
+            <div class="ico"><i class="fas fa-map-marker-alt"></i></div>
+            <div><h4>Our Address</h4><p>Triveniganj, Supaul, Bihar – 852139</p></div>
+          </div>
+          <div class="info-item reveal">
+            <div class="ico"><i class="fas fa-phone"></i></div>
+            <div>
+              <h4>Phone Numbers</h4>
+              <a href="tel:7782816456"><i class="fas fa-phone-volume" style="margin-right:5px"></i>7782816456</a><br>
+              <a href="tel:9546655104" style="margin-top:4px;display:inline-block"><i class="fas fa-phone-volume" style="margin-right:5px"></i>9546655104</a>
+            </div>
+          </div>
+          <div class="info-item reveal">
+            <div class="ico"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h4>Email Address</h4>
+              <a href="mailto:medonaenglishschool@gmail.com"><i class="fas fa-at" style="margin-right:5px"></i>medonaenglishschool@gmail.com</a>
+            </div>
+          </div>
+          <div class="info-item reveal">
+            <div class="ico"><i class="fas fa-clock"></i></div>
+            <div>
+              <h4>School Hours</h4>
+              <p><i class="fas fa-sun" style="color:var(--gold);margin-right:5px"></i>Mon–Sat: 7:00 AM – 2:00 PM</p>
+              <p><i class="fas fa-briefcase" style="color:var(--sky);margin-right:5px"></i>Office: 9:00 AM – 5:00 PM</p>
+            </div>
+          </div>
+          <div class="info-item reveal">
+            <div class="ico"><i class="fas fa-id-card"></i></div>
+            <div><h4>UDISE Code</h4><p><i class="fas fa-hashtag" style="color:var(--sky);margin-right:5px"></i>10061101317</p></div>
+          </div>
+          <div class="map-section reveal">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m11!1m3!1d3!2d86.8753536!3d26.1335512!2m2!1f0!2f90!3m2!1i1024!2i768!4f75!3m3!1m2!1s0x39ee4cee8ca597fb%3A0x459a7c9551275bf6!2sMedona%20English%20School!4v1776353309866" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+
+        <div class="contact-form-box reveal">
+          <h3><i class="fas fa-paper-plane" style="color:var(--sky)"></i>Send Us a Message</h3>
+          <div class="google-form-wrapper">
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLScde_tj90wTXQznK1FgENQNZ92RDOJ3LO0YsjQbBkArGRYQ8A/viewform?embedded=true"
+              width="100%"
+              height="820"
+              frameborder="0"
+              marginheight="0"
+              marginwidth="0"
+              title="Contact / Admission Form">
+              Loading…
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ================================================================
+     PREMIUM FOOTER
+     ================================================================ -->
+<footer id="main-footer">
+  <div class="container">
+    <div class="footer-top-banner">
+      <i class="fas fa-graduation-cap"></i>
+      <span>🎉 ADMISSION OPEN — FREE TILL JANUARY 2026! Call: 7782816456 / 9546655104</span>
+      <button onclick="showPage('form')" class="footer-apply-btn" style="margin-left:12px"><i class="fas fa-pen-to-square"></i> Apply Now</button>
+    </div>
+
+    <div class="footer-grid">
+      <!-- Brand -->
+      <div>
+        <div class="footer-brand">
+          <div class="logo">
+            <div class="logo-icon"><i class="fas fa-graduation-cap"></i></div>
+            Medona English School
+          </div>
+          <p>A Unit of Y.L. Karan &amp; Sons Educational Trust (Regd. Under Govt. of Bihar). Providing quality English medium education from Nursery to 8th Standard in Triveniganj, Supaul.</p>
+          <div class="footer-udise"><i class="fas fa-hashtag" style="margin-right:4px"></i>UDISE Code: 10061101317</div>
+          <div class="social-links">
+            <a href="#" class="fb" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://wa.me/917782816456" target="_blank" class="wa" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" class="yt" title="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" class="ig" title="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div>
+        <h4><i class="fas fa-link"></i>Quick Links</h4>
+        <ul>
+          <li><a onclick="showPage('home')"><i class="fas fa-chevron-right"></i> Home</a></li>
+          <li><a onclick="showPage('about')"><i class="fas fa-chevron-right"></i> About Us</a></li>
+          <li><a onclick="showPage('facilities')"><i class="fas fa-chevron-right"></i> Facilities</a></li>
+          <li><a onclick="showPage('admission')"><i class="fas fa-chevron-right"></i> Admission</a></li>
+          <li><a onclick="showPage('fee')"><i class="fas fa-chevron-right"></i> Fee Structure</a></li>
+          <li><a onclick="showPage('gallery')"><i class="fas fa-chevron-right"></i> Gallery</a></li>
+          <li><a onclick="showPage('contact')"><i class="fas fa-chevron-right"></i> Contact</a></li>
+          <li><a onclick="showPage('form')"><i class="fas fa-chevron-right"></i> Apply Now</a></li>
+        </ul>
+      </div>
+
+      <!-- Classes -->
+      <div>
+        <h4><i class="fas fa-chalkboard-teacher"></i>Classes Offered</h4>
+        <ul>
+          <li><a><i class="fas fa-chevron-right"></i> Nursery</a></li>
+          <li><a><i class="fas fa-chevron-right"></i> LKG &amp; UKG</a></li>
+          <li><a><i class="fas fa-chevron-right"></i> Class 1 to 5</a></li>
+          <li><a><i class="fas fa-chevron-right"></i> Class 6 to 8</a></li>
+          <li><a><i class="fas fa-chevron-right"></i> Navodaya Coaching</a></li>
+          <li><a><i class="fas fa-chevron-right"></i> Simultala Coaching</a></li>
+          <li><a><i class="fas fa-chevron-right"></i> Sainik School Prep</a></li>
+          <li><a><i class="fas fa-chevron-right"></i> Acharyakulam Prep</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact + Apply -->
+      <div>
+        <h4><i class="fas fa-address-book"></i>Contact Us</h4>
+        <ul class="footer-contact">
+          <li><i class="fas fa-map-marker-alt"></i>Triveniganj, Supaul, Bihar – 852139</li>
+          <li><i class="fas fa-phone"></i><a href="tel:7782816456">7782816456</a></li>
+          <li><i class="fas fa-phone"></i><a href="tel:9546655104">9546655104</a></li>
+          <li><i class="fas fa-envelope"></i><a href="mailto:medonaenglishschool@gmail.com">medonaenglishschool@gmail.com</a></li>
+          <li><i class="fas fa-clock"></i>Mon–Sat: 7:00 AM – 2:00 PM</li>
+          <li><i class="fas fa-user-tie"></i>Director: Manoj Kumar</li>
+        </ul>
+        <div class="footer-apply-box">
+          <p>Admissions are open!<br>Apply online today — it's free.</p>
+          <button class="footer-apply-btn" onclick="showPage('form')"><i class="fas fa-pen-to-square"></i> Apply for Admission</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="footer-bottom-text">
+      <i class="fas fa-copyright" style="margin-right:4px"></i> 2025 Medona English School, Triveniganj, Supaul, Bihar. All Rights Reserved.<br>
+      A Unit of Y.L. Karan &amp; Sons Educational Trust (Regd. Under Govt. of Bihar)
+    </div>
+    <div class="footer-bottom-credits">
+      Website by <a href="https://sparkedge555.github.io/sparkedgeagency/" target="_blank">SparkEdge</a>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING BUTTONS -->
+<div class="floating-btns">
+  <a class="float-btn float-wa" href="https://wa.me/917782816456" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+  <a class="float-btn float-call" href="tel:7782816456" title="Call Now"><i class="fas fa-phone"></i></a>
+  <button class="float-btn float-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to Top"><i class="fas fa-arrow-up"></i></button>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
