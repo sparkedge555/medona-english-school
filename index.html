@@ -12,6 +12,19 @@
 <!-- External Stylesheet -->
 <link rel="stylesheet" href="styles.css">
    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+   <style>.google-form-wrapper {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.google-form-wrapper iframe {
+  width: 100%;
+  min-height: 900px;
+  border: none;
+}</style>
 </head>
 <body>
 
@@ -634,74 +647,22 @@
     </div>
   </div>
 
-  <div class="form-page">
-    <div class="form-container">
-      <div class="form-box">
-        <h2><i class="fas fa-file-signature" style="color:var(--sky);margin-right:10px"></i>Admission Application</h2>
-        <p class="sub">Medona English School — Session 2025–26 · All fields marked <span class="req">*</span> are mandatory</p>
-
-        <div id="form-content">
-          <div class="form-grid">
-            <div class="form-group">
-              <label><i class="fas fa-user" style="color:var(--sky);margin-right:5px"></i>Student Name <span class="req">*</span></label>
-              <input type="text" id="studentName" placeholder="Full name of student">
-              <div class="error-msg" id="err-studentName"></div>
-            </div>
-            <div class="form-group">
-              <label><i class="fas fa-users" style="color:var(--sky);margin-right:5px"></i>Parent / Guardian Name <span class="req">*</span></label>
-              <input type="text" id="parentName" placeholder="Father's / Mother's name">
-              <div class="error-msg" id="err-parentName"></div>
-            </div>
-            <div class="form-group">
-              <label><i class="fas fa-phone" style="color:var(--sky);margin-right:5px"></i>Phone Number <span class="req">*</span></label>
-              <input type="tel" id="phone" placeholder="10-digit mobile number">
-              <div class="error-msg" id="err-phone"></div>
-            </div>
-            <div class="form-group">
-              <label><i class="fas fa-envelope" style="color:var(--sky);margin-right:5px"></i>Email Address</label>
-              <input type="email" id="email" placeholder="email@example.com (optional)">
-              <div class="error-msg" id="err-email"></div>
-            </div>
-            <div class="form-group">
-              <label><i class="fas fa-chalkboard" style="color:var(--sky);margin-right:5px"></i>Class Applying For <span class="req">*</span></label>
-              <select id="classApply">
-                <option value="">— Select Class —</option>
-                <option>Nursery</option><option>LKG</option><option>UKG</option>
-                <option>Class 1</option><option>Class 2</option><option>Class 3</option>
-                <option>Class 4</option><option>Class 5</option><option>Class 6</option>
-                <option>Class 7</option><option>Class 8</option>
-              </select>
-              <div class="error-msg" id="err-classApply"></div>
-            </div>
-            <div class="form-group">
-              <label><i class="fas fa-cake-candles" style="color:var(--sky);margin-right:5px"></i>Date of Birth <span class="req">*</span></label>
-              <input type="date" id="dob">
-              <div class="error-msg" id="err-dob"></div>
-            </div>
-            <div class="form-group full">
-              <label><i class="fas fa-map-marker-alt" style="color:var(--sky);margin-right:5px"></i>Full Address <span class="req">*</span></label>
-              <textarea id="address" placeholder="Village / Town, Block, District, PIN Code"></textarea>
-              <div class="error-msg" id="err-address"></div>
-            </div>
-            <div class="form-group full">
-              <label><i class="fas fa-school" style="color:var(--sky);margin-right:5px"></i>Previous School (if any)</label>
-              <input type="text" id="prevSchool" placeholder="Name of previous school (optional)">
-            </div>
-          </div>
-          <button class="submit-btn" onclick="submitForm()"><i class="fas fa-paper-plane"></i> Submit Application</button>
-        </div>
-
-        <div class="success-message" id="success-msg">
-          <div class="check"><i class="fas fa-check"></i></div>
-          <h3>Application Submitted!</h3>
-          <p>Thank you for applying to Medona English School. We have received your application and will contact you within 24 hours on your registered phone number.</p>
-          <p style="margin-top:12px;font-weight:600;color:var(--sky)"><i class="fas fa-phone" style="margin-right:5px"></i>For queries, call: 7782816456 / 9546655104</p>
-          <button class="btn btn-navy" style="margin-top:24px;border-radius:50px" onclick="resetForm()"><i class="fas fa-rotate-left"></i> Submit Another Application</button>
-        </div>
-      </div>
-    </div>
+  <div id="form-content">
+  <div class="google-form-wrapper">
+    <iframe 
+      src="https://docs.google.com/forms/d/e/1FAIpQLScde_tj90wTXQznK1FgENQNZ92RDOJ3LO0YsjQbBkArGRYQ8A/viewform?embedded=true" 
+      width="100%" 
+      height="900" 
+      frameborder="0" 
+      marginheight="0" 
+      marginwidth="0"
+      style="border:none; border-radius:16px;">
+      Loading…
+    </iframe>
   </div>
 </div>
+
+   
 
 <!-- ============================================================
      FEE STRUCTURE PAGE
